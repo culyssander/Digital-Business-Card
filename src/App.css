@@ -1,0 +1,133 @@
+html {
+  height: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #282D35;
+  height: 100%;
+  font-family: Inter, sans-serif;
+}
+
+.App {
+  /* height: 70%; */
+  width: 300px;
+  background: #21222A;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 45px;
+  color: #fff;
+
+}
+
+header {
+  text-align: center;
+}
+
+header img {
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  width: 100%;
+}
+
+header h1 {
+  font-size: 24px;
+  padding-top: 30px;
+}
+
+header h3 {
+  font-size: 14px;
+  color: bisque;
+  font-style: normal;
+}
+
+header a {
+  font-size: 12px;
+  color: #fff;
+}
+
+header button {
+  /* padding: ; */
+}
+
+
+
+header .botao-email {
+  margin: 17px 10px 0 0;
+  padding: 9px 26px;
+  background-color: #fff;
+  color: #21222A;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+header .botao-email > i, header .botao-linkedln i{
+  margin-right: 10px;
+}
+
+header .botao-linkedln {
+  background-color: #0A66C2;
+  padding: 9px 30px;
+  color: #fff;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+main {
+  padding: 20px;
+  margin-top: 25px;
+}
+
+main h3 {
+  font-size: 16px;
+}
+
+main p {
+  font-size: 11px;
+  justify-content: flex-start;
+  margin-bottom: 15px;
+}
+
+.rodape {
+  background: #0d1522;
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  text-align: center;
+  align-items: center;
+  border-end-start-radius: 15px;
+  border-end-end-radius: 15px;
+}
+
+footer i {
+  margin: 0 10px;
+  padding: 5px;
+  background: rgb(133, 129, 129);
+  color: #0d1522;
+
+}
+
+/* 
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+} */
