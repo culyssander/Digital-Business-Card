@@ -8,7 +8,7 @@ export default function Header() {
             <h1>Quitumba Ferreira</h1>
             <h3>Full-stack developer</h3>
             <a href="https://culyssander.github.io/" target="_blank">quitumba.website</a><br /><br />
-            <a className="botao-email" href="mailto:culyssandercentro@gmail.com"><i class="fa-solid fa-envelope"></i> Email</a>
+            <a className="botao-email" href="mailto:culyssandercentro@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i> Email</a>
             <a className="botao-linkedln" href="https://www.linkedin.com/in/quitumba-ferreira-5a598618a/" target="_blank"><i class="fa-brands fa-linkedin"></i> Linkedln</a>
         </header>
     )
