@@ -4,7 +4,7 @@ import React from "react";
 export default function Header() {
     return(
         <header>
-            <img src="src\images\Quitumba.jpeg" alt="image" />
+            <img src="../images/Quitumba.jpeg" alt="image" />
             <h1>Quitumba Ferreira</h1>
             <h3>Full-stack developer</h3>
             <a href="https://culyssander.github.io/" target="_blank">quitumba.website</a><br /><br />
