@@ -1,10 +1,11 @@
 import React from "react";
+import profilePhoto from "../images/Quitumba.jpeg"
 // import { FontAwesomeIcon } from "@fortawesome/free-solid-svg-icons";
 
 export default function Header() {
     return(
         <header>
-            <img src="../images/Quitumba.jpeg" alt="image" />
+            <img src={profilePhoto} alt="image" />
             <h1>Quitumba Ferreira</h1>
             <h3>Full-stack developer</h3>
             <a href="https://culyssander.github.io/" target="_blank">quitumba.website</a><br /><br />
